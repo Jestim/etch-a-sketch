@@ -58,3 +58,20 @@ function removeGrid() {
         container.removeChild(container.lastChild);
     }
 }
+
+
+// ---------- New Feature ----------
+// Get random number between 0-255 to use as color for rgb()
+// 
+// on event mouseover set color for that div with rgb(getRandomColor)
+// 
+// keep track of number of mouseovers and add 10% for each mouseover
+//    on first mouseover 
+//        add a a class with classname one
+//        set a random color
+//    
+//    for every mouseover check classname 
+//        increment classname with one
+//        for each increment add 10% black
+//    
+//    if classname is ten stop incrementing

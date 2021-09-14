@@ -28,7 +28,7 @@ body {
 }
 
 .square-filled {
-    background-color: blue;
+    background-color: rgb(0, 0, 255);
 }
 
 #reset {
